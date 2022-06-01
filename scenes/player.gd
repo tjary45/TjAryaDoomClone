@@ -7,6 +7,7 @@ var gravity = -30
 var max_speed = 8
 var mouse_sensitivity = 0.002
 
+
 #gun variable 
 
 

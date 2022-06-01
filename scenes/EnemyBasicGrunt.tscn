@@ -26,18 +26,14 @@
 [ext_resource path="res://scenes/EnemyBasicGrunt.gd" type="Script" id=24]
 
 [sub_resource type="CapsuleShape" id=1]
-radius = 0.5
+radius = 0.702581
+height = 1.01454
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
 "frames": [ ExtResource( 2 ) ],
 "loop": true,
 "name": "idle",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 5 ), ExtResource( 13 ) ],
-"loop": true,
-"name": "shoot",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 8 ), ExtResource( 21 ), ExtResource( 7 ), ExtResource( 14 ), ExtResource( 12 ), ExtResource( 22 ), ExtResource( 20 ) ],
@@ -59,9 +55,15 @@ animations = [ {
 "loop": true,
 "name": "walking",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "shoot",
+"speed": 5.0
 } ]
 
 [node name="EnemyBasicGrunt" type="KinematicBody" groups=["Enemy"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2165, 0 )
 script = ExtResource( 24 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
@@ -69,13 +71,13 @@ transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0
 shape = SubResource( 1 )
 
 [node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="."]
-transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, -1.36218, 0 )
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, -1.20033, 0 )
 centered = false
 offset = Vector2( -15.96, 0 )
 billboard = 2
 frames = SubResource( 2 )
 animation = "walking"
-frame = 2
+frame = 1
 playing = true
 
 [node name="RayCast" type="RayCast" parent="."]

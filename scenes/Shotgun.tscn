@@ -20,7 +20,7 @@ animations = [ {
 "speed": 12.0
 } ]
 
-[node name="Pistol" type="Spatial"]
+[node name="Shotgun" type="Spatial"]
 script = ExtResource( 6 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
@@ -39,7 +39,7 @@ rotation = 3.14159
 scale = Vector2( 2, 2 )
 frames = SubResource( 1 )
 animation = "shoot"
-frame = 2
+frame = 1
 playing = true
 centered = false
 flip_h = true
@@ -48,5 +48,35 @@ flip_v = true
 [node name="GunRays" type="Spatial" parent="."]
 
 [node name="RayCast" type="RayCast" parent="GunRays"]
+transform = Transform( 1, 0, 0, 0, 0.997735, -0.0672665, 0, 0.0672665, 0.997735, 0, 0, 0 )
 enabled = true
 cast_to = Vector3( 0, 0, -20 )
+
+[node name="RayCast2" type="RayCast" parent="GunRays"]
+transform = Transform( 1, 0, 0, 0, 0.997526, 0.0702962, 0, -0.0702962, 0.997526, 0, 0, 0 )
+enabled = true
+cast_to = Vector3( 0, 0, -10 )
+
+[node name="RayCast3" type="RayCast" parent="GunRays"]
+enabled = true
+cast_to = Vector3( 0, 0, -15 )
+
+[node name="RayCast4" type="RayCast" parent="GunRays"]
+enabled = true
+cast_to = Vector3( 0, 0, -10 )
+
+[node name="RayCast5" type="RayCast" parent="GunRays"]
+enabled = true
+cast_to = Vector3( 0, 0, -20 )
+
+[node name="RayCast6" type="RayCast" parent="GunRays"]
+enabled = true
+cast_to = Vector3( 0, 0, -10 )
+
+[node name="RayCast7" type="RayCast" parent="GunRays"]
+enabled = true
+cast_to = Vector3( 0, 0, -15 )
+
+[node name="RayCast8" type="RayCast" parent="GunRays"]
+enabled = true
+cast_to = Vector3( 0, 0, -10 )
