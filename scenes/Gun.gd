@@ -3,7 +3,7 @@ extends Spatial
 
 onready var gun_sprite = $CanvasLayer/Control/GunSprite
 onready var gun_rays = $GunRays.get_children()
-onready var flash = preload("res://Muzzleflash.tscn")
+onready var flash = preload("res://scenes/Muzzleflash.tscn")
 var damage = 8
 var can_shoot = true
 
