@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://scenes/player.gd" type="Script" id=1]
 [ext_resource path="res://scenes/Shotgun.tscn" type="PackedScene" id=2]
+[ext_resource path="res://sprites/kisspng-tomato-juice-5b37f31ca85a00.9166142715303933726896.jpg" type="Texture" id=3]
 
 [sub_resource type="CapsuleShape" id=1]
 radius = 0.487963
@@ -29,3 +30,19 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00400925, 0 )
 [node name="Gun" type="Spatial" parent="Pivot"]
 
 [node name="Shotgun" parent="Pivot/Gun" instance=ExtResource( 2 )]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -20.0
+margin_top = -20.0
+margin_right = 20.0
+margin_bottom = 20.0
+mouse_filter = 2
+
+[node name="Kisspng-tomato-juice-5B37F31Ca85A009166142715303933726896" type="Sprite" parent="CanvasLayer/Control"]
+texture = ExtResource( 3 )
