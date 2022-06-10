@@ -1,8 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://scenes/player.gd" type="Script" id=1]
 [ext_resource path="res://scenes/Shotgun.tscn" type="PackedScene" id=2]
-[ext_resource path="res://sprites/kisspng-tomato-juice-5b37f31ca85a00.9166142715303933726896.jpg" type="Texture" id=3]
 
 [sub_resource type="CapsuleShape" id=1]
 radius = 0.487963
@@ -43,6 +42,3 @@ margin_top = -20.0
 margin_right = 20.0
 margin_bottom = 20.0
 mouse_filter = 2
-
-[node name="Kisspng-tomato-juice-5B37F31Ca85A009166142715303933726896" type="Sprite" parent="CanvasLayer/Control"]
-texture = ExtResource( 3 )

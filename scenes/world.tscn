@@ -13,3 +13,21 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -1.9616
 
 [node name="EnemyBasicGrunt" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1222, 0 )
+
+[node name="EnemyBasicGrunt4" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7919, 2.1222, 0 )
+
+[node name="EnemyBasicGrunt5" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.48009, 2.1222, 0 )
+
+[node name="EnemyBasicGrunt6" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.80007, 2.1222, 0 )
+
+[node name="EnemyBasicGrunt7" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.2115, 2.1222, 0 )
+
+[node name="EnemyBasicGrunt2" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1222, -3.75277 )
+
+[node name="EnemyBasicGrunt3" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1222, 19.9693 )

@@ -4,7 +4,7 @@ extends KinematicBody
 #basic variables
 var velocity = Vector3()
 var gravity = -30 
-var max_speed = 8
+var max_speed = 20
 var mouse_sensitivity = 0.002
 
 
@@ -34,7 +34,7 @@ func get_input():
 		input_dir += -global_transform.basis.x
 	if Input.is_action_pressed("strafe_right"):
 		input_dir += global_transform.basis.x
-	# input_dur = input_dir.normalize() 
+	#input_dur = input_dir.normalize() 
 		
 	return input_dir
 	
