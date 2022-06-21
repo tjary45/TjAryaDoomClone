@@ -3,13 +3,16 @@ extends KinematicBody
 onready var nav = get_tree().get_nodes_in_group("NavMesh")[0]
 onready var player = get_tree().get_nodes_in_group("Player")[0]
 
+
+
 var path = [] #hold the path coordinates from the enemy to the player
 var path_index = 0 #keep track of which coordinate to go to 
 var speed = 3
 var health = 20
 var move = true
 
-
+var searching = false
+onready var ray = $Visual 
 
 
 func _ready():
@@ -33,6 +36,7 @@ func _physics_process(delta):
 		var direction = (path[path_index] - global_transform.origin)
 		if direction.length() < 1:
 			path_index += 1
+			$AnimatedSprite3D.play("walking")
 		else:
 			if move:
 				$AnimatedSprite3D.play("walking")
@@ -62,3 +66,9 @@ func shoot(target):
 
 func _on_Timer_timeout():
 	find_path(player.global_transform.origin) # Replace with function body.
+
+
+func _on_Aural_body_entered(body):
+	if body.is_in_group("Player"):
+		print("I hear you")
+		searching = true

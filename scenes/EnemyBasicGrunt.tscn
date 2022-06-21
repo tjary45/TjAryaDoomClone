@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=28 format=2]
 
 [ext_resource path="res://sprites/AutoShotgunGuy/asgzc1.png" type="Texture" id=1]
 [ext_resource path="res://sprites/AutoShotgunGuy/asgza1.png" type="Texture" id=2]
@@ -36,14 +36,14 @@ animations = [ {
 "name": "idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 8 ), ExtResource( 21 ), ExtResource( 7 ), ExtResource( 14 ), ExtResource( 12 ), ExtResource( 22 ), ExtResource( 20 ) ],
-"loop": false,
-"name": "die",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 1 ), ExtResource( 3 ) ],
 "loop": true,
 "name": "walking",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 21 ), ExtResource( 7 ), ExtResource( 14 ), ExtResource( 12 ), ExtResource( 22 ), ExtResource( 20 ) ],
+"loop": false,
+"name": "die",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 23 ), ExtResource( 23 ) ],
@@ -62,6 +62,9 @@ animations = [ {
 "speed": 5.0
 } ]
 
+[sub_resource type="CylinderShape" id=3]
+radius = 13.4242
+
 [node name="EnemyBasicGrunt" type="KinematicBody" groups=["Enemy"]]
 transform = Transform( 1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 1.2165, 0 )
 script = ExtResource( 24 )
@@ -75,14 +78,23 @@ transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, -1.20033, 0 )
 centered = false
 offset = Vector2( -15.96, 0 )
 billboard = 2
+double_sided = false
 frames = SubResource( 2 )
 animation = "walking"
 frame = 3
 playing = true
 
-[node name="RayCast" type="RayCast" parent="."]
+[node name="Visual" type="RayCast" parent="."]
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
+[node name="Aural" type="Area" parent="."]
+collision_layer = 4
+collision_mask = 4
+
+[node name="CollisionShape" type="CollisionShape" parent="Aural"]
+shape = SubResource( 3 )
+
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="body_entered" from="Aural" to="." method="_on_Aural_body_entered"]

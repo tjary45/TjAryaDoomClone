@@ -11,6 +11,7 @@ height = 1.27307
 extents = Vector3( 0.643333, 0.15238, 0.708367 )
 
 [node name="Player" type="KinematicBody" groups=["Player"]]
+collision_mask = 5
 script = ExtResource( 1 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]

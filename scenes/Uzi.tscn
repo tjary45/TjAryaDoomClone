@@ -32,7 +32,7 @@ margin_left = -40.0
 margin_top = -40.0
 
 [node name="GunSprite" type="AnimatedSprite" parent="CanvasLayer/Control"]
-position = Vector2( -262, 50 )
+position = Vector2( -161.879, 50 )
 rotation = 3.14159
 scale = Vector2( 2, 2 )
 frames = SubResource( 1 )
@@ -49,7 +49,7 @@ enabled = true
 cast_to = Vector3( 0, 0, -20 )
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 0.1
+wait_time = 0.001
 autostart = true
 
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
