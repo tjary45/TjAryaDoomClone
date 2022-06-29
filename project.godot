@@ -14,6 +14,10 @@ config/name="TjAryaDoomClone"
 run/main_scene="res://scenes/world.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+PlayerStats="*res://Scripts/PlayerStats.gd"
+
 [importer_defaults]
 
 texture={

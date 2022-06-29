@@ -4,7 +4,8 @@ extends KinematicBody
 #basic variables
 var velocity = Vector3()
 var gravity = -30 
-var max_speed = 20
+var max_speed = 10
+
 var mouse_sensitivity = 0.002
 
 
@@ -38,7 +39,7 @@ func get_input():
 		
 	return input_dir
 	
-func _unhandled_input(event):
+func _input(event):
 	if event is InputEventMouseMotion:
 		rotate_y(-event.relative.x * mouse_sensitivity)
 		$Pivot.rotate_x(-event.relative.y * mouse_sensitivity)
@@ -60,7 +61,7 @@ func change_gun(gun):
 	$Pivot/Gun.get_child(0).queue_free()
 	var new_gun = carried_guns[gun].instance()
 	$Pivot/Gun.add_child(new_gun)
-	PlayerStat.current_gun = new_gun.name
+	PlayerStats.current_gun = new_gun.name
 	
 	
 	
