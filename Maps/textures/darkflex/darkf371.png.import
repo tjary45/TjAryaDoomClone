@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/darkf371.png-ca61a10ca7229304a58fc7351f4f77f4.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Maps/textures/darkflex/darkf371.png"
+dest_files=[ "res://.import/darkf371.png-ca61a10ca7229304a58fc7351f4f77f4.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
