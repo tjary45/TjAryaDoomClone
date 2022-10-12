@@ -1,4 +1,4 @@
-[gd_scene load_steps=278 format=2]
+[gd_scene load_steps=286 format=2]
 
 [ext_resource path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" type="Resource" id=1]
 [ext_resource path="res://Maps/textures/darkflex/darkf085.png" type="Texture" id=2]
@@ -970,6 +970,108 @@ surfaces/0 = {
 [sub_resource type="ConvexPolygonShape" id=9]
 points = PoolVector3Array( -2, 4.5, -0.5, -2, -4.5, -0.5, 2, -4.5, -0.5, 2, 4.5, -0.5, -2, 4.5, 0.5, -2, -4.5, 0.5, 2, -4.5, 0.5, 2, 4.5, 0.5 )
 
+[sub_resource type="Animation" id=242]
+resource_name = "OpenDoor"
+tracks/0/type = "value"
+tracks/0/path = NodePath("entity_2_mesh_instance:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -9.1011, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("entity_2_brush_0_collision_shape:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -9.1011, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("entity_3_mesh_instance:translation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 4, 0, 0 ), Vector3( 4, -9.1011, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("entity_3_brush_0_collision_shape:translation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 4, 0, 0 ), Vector3( 4, -9.1011, 0 ) ]
+}
+
+[sub_resource type="Animation" id=243]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("entity_2_mesh_instance:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("entity_2_brush_0_collision_shape:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("entity_3_mesh_instance:translation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 4, 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("entity_3_brush_0_collision_shape:translation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 4, 0, 0 ) ]
+}
+
 [sub_resource type="SpatialMaterial" id=10]
 albedo_texture = ExtResource( 16 )
 
@@ -1490,6 +1592,63 @@ surfaces/0 = {
 [sub_resource type="ConvexPolygonShape" id=33]
 points = PoolVector3Array( -0.5, 5, -5, -0.5, -5, -5, 0.5, -5, -5, 0.5, 5, -5, -0.5, 5, 5, -0.5, -5, 5, 0.5, -5, 5, 0.5, 5, 5 )
 
+[sub_resource type="Animation" id=244]
+resource_name = "OpenDoor"
+tracks/0/type = "value"
+tracks/0/path = NodePath("entity_13_mesh_instance:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -9.92561, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("entity_13_brush_0_collision_shape:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -9.92561, 0 ) ]
+}
+
+[sub_resource type="Animation" id=245]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("entity_13_mesh_instance:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("entity_13_brush_0_collision_shape:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="ConvexPolygonShape" id=38]
+points = PoolVector3Array( -0.5, 5, -2.5, -0.5, -5, -2.5, 0.5, -5, -2.5, 0.5, 5, -2.5, -0.5, 5, 2.5, -0.5, -5, 2.5, 0.5, -5, 2.5, 0.5, 5, 2.5 )
+
 [sub_resource type="SpatialMaterial" id=34]
 albedo_texture = ExtResource( 33 )
 
@@ -1524,11 +1683,127 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ConvexPolygonShape" id=38]
-points = PoolVector3Array( -0.5, 5, -2.5, -0.5, -5, -2.5, 0.5, -5, -2.5, 0.5, 5, -2.5, -0.5, 5, 2.5, -0.5, -5, 2.5, 0.5, -5, 2.5, 0.5, 5, 2.5 )
+[sub_resource type="Animation" id=246]
+resource_name = "OpenDoor"
+tracks/0/type = "value"
+tracks/0/path = NodePath("entity_15_brush_0_collision_shape:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, -5 ), Vector3( 0, -10.1017, -5 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("entity_14_mesh_instance:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -10.1017, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("entity_14_brush_0_collision_shape:translation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -10.1017, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("entity_15_mesh_instance:translation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, -5 ), Vector3( 0, -10.1017, -5 ) ]
+}
+
+[sub_resource type="Animation" id=247]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("entity_15_brush_0_collision_shape:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, -5 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("entity_14_mesh_instance:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("entity_14_brush_0_collision_shape:translation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("entity_15_mesh_instance:translation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, -5 ) ]
+}
+
+[sub_resource type="ConvexPolygonShape" id=43]
+points = PoolVector3Array( 2.22414, 5.5, -0.5, -2.27586, 5.5, -0.5, -2.27586, -5.5, -0.5, 2.22414, -5.5, -0.5, 2.32759, -5.5, 0.5, 2.32759, 5.5, 0.5, -2.27586, 5.5, 0.5, -2.27586, -5.5, 0.5 )
 
 [sub_resource type="SpatialMaterial" id=39]
 albedo_texture = ExtResource( 34 )
+
+[sub_resource type="ArrayMesh" id=42]
+surfaces/0 = {
+"aabb": AABB( -2.27586, -5.5, -0.5, 4.60345, 11, 1 ),
+"array_data": PoolByteArray( 71, 88, 14, 64, 0, 0, 176, 64, 0, 0, 0, 191, 127, 127, 127, 193, 2, 73, 167, 191, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 191, 127, 127, 127, 193, 138, 72, 167, 191, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 191, 127, 127, 127, 193, 138, 72, 216, 186, 71, 88, 14, 64, 0, 0, 176, 192, 0, 0, 0, 191, 127, 127, 127, 193, 2, 73, 216, 186, 71, 88, 14, 64, 0, 0, 176, 64, 0, 0, 0, 191, 127, 11, 0, 193, 69, 73, 167, 191, 71, 88, 14, 64, 0, 0, 176, 192, 0, 0, 0, 191, 127, 11, 0, 193, 69, 73, 216, 186, 44, 247, 20, 64, 0, 0, 176, 192, 0, 0, 0, 63, 127, 11, 0, 193, 96, 73, 216, 186, 44, 247, 20, 64, 0, 0, 176, 64, 0, 0, 0, 63, 127, 11, 0, 193, 96, 73, 167, 191, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 191, 129, 0, 0, 63, 69, 73, 167, 191, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 63, 129, 0, 0, 63, 96, 73, 167, 191, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 63, 129, 0, 0, 63, 96, 73, 216, 186, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 191, 129, 0, 0, 63, 69, 73, 216, 186, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 191, 0, 129, 0, 193, 69, 73, 204, 196, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 63, 0, 129, 0, 193, 96, 73, 204, 196, 44, 247, 20, 64, 0, 0, 176, 192, 0, 0, 0, 63, 0, 129, 0, 193, 96, 73, 61, 197, 71, 88, 14, 64, 0, 0, 176, 192, 0, 0, 0, 191, 0, 129, 0, 193, 69, 73, 59, 197, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 191, 0, 127, 0, 63, 69, 73, 204, 196, 71, 88, 14, 64, 0, 0, 176, 64, 0, 0, 0, 191, 0, 127, 0, 63, 69, 73, 59, 197, 44, 247, 20, 64, 0, 0, 176, 64, 0, 0, 0, 63, 0, 127, 0, 63, 96, 73, 61, 197, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 63, 0, 127, 0, 63, 96, 73, 204, 196, 44, 247, 20, 64, 0, 0, 176, 64, 0, 0, 0, 63, 0, 0, 127, 63, 5, 73, 167, 191, 44, 247, 20, 64, 0, 0, 176, 192, 0, 0, 0, 63, 0, 0, 127, 63, 5, 73, 216, 186, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 63, 0, 0, 127, 63, 138, 72, 216, 186, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 63, 0, 0, 127, 63, 138, 72, 167, 191 ),
+"array_index_data": PoolByteArray( 0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0, 4, 0, 5, 0, 6, 0, 4, 0, 6, 0, 7, 0, 8, 0, 9, 0, 10, 0, 8, 0, 10, 0, 11, 0, 12, 0, 13, 0, 14, 0, 12, 0, 14, 0, 15, 0, 16, 0, 17, 0, 18, 0, 16, 0, 18, 0, 19, 0, 20, 0, 21, 0, 22, 0, 20, 0, 22, 0, 23, 0 ),
+"blend_shape_data": [  ],
+"format": 2194711,
+"index_count": 36,
+"material": SubResource( 39 ),
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 24
+}
 
 [sub_resource type="ArrayMesh" id=40]
 surfaces/0 = {
@@ -1547,22 +1822,107 @@ surfaces/0 = {
 [sub_resource type="ConvexPolygonShape" id=41]
 points = PoolVector3Array( 2.22414, -5.5, -0.5, 2.22414, 5.5, -0.5, -2.27586, 5.5, -0.5, -2.27586, -5.5, -0.5, -2.17241, -5.5, 0.5, 2.22414, -5.5, 0.5, 2.22414, 5.5, 0.5, -2.17241, 5.5, 0.5 )
 
-[sub_resource type="ArrayMesh" id=42]
-surfaces/0 = {
-"aabb": AABB( -2.27586, -5.5, -0.5, 4.60345, 11, 1 ),
-"array_data": PoolByteArray( 71, 88, 14, 64, 0, 0, 176, 64, 0, 0, 0, 191, 127, 127, 127, 193, 2, 73, 167, 191, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 191, 127, 127, 127, 193, 138, 72, 167, 191, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 191, 127, 127, 127, 193, 138, 72, 216, 186, 71, 88, 14, 64, 0, 0, 176, 192, 0, 0, 0, 191, 127, 127, 127, 193, 2, 73, 216, 186, 71, 88, 14, 64, 0, 0, 176, 64, 0, 0, 0, 191, 127, 11, 0, 193, 69, 73, 167, 191, 71, 88, 14, 64, 0, 0, 176, 192, 0, 0, 0, 191, 127, 11, 0, 193, 69, 73, 216, 186, 44, 247, 20, 64, 0, 0, 176, 192, 0, 0, 0, 63, 127, 11, 0, 193, 96, 73, 216, 186, 44, 247, 20, 64, 0, 0, 176, 64, 0, 0, 0, 63, 127, 11, 0, 193, 96, 73, 167, 191, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 191, 129, 0, 0, 63, 69, 73, 167, 191, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 63, 129, 0, 0, 63, 96, 73, 167, 191, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 63, 129, 0, 0, 63, 96, 73, 216, 186, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 191, 129, 0, 0, 63, 69, 73, 216, 186, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 191, 0, 129, 0, 193, 69, 73, 204, 196, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 63, 0, 129, 0, 193, 96, 73, 204, 196, 44, 247, 20, 64, 0, 0, 176, 192, 0, 0, 0, 63, 0, 129, 0, 193, 96, 73, 61, 197, 71, 88, 14, 64, 0, 0, 176, 192, 0, 0, 0, 191, 0, 129, 0, 193, 69, 73, 59, 197, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 191, 0, 127, 0, 63, 69, 73, 204, 196, 71, 88, 14, 64, 0, 0, 176, 64, 0, 0, 0, 191, 0, 127, 0, 63, 69, 73, 59, 197, 44, 247, 20, 64, 0, 0, 176, 64, 0, 0, 0, 63, 0, 127, 0, 63, 96, 73, 61, 197, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 63, 0, 127, 0, 63, 96, 73, 204, 196, 44, 247, 20, 64, 0, 0, 176, 64, 0, 0, 0, 63, 0, 0, 127, 63, 5, 73, 167, 191, 44, 247, 20, 64, 0, 0, 176, 192, 0, 0, 0, 63, 0, 0, 127, 63, 5, 73, 216, 186, 185, 167, 17, 192, 0, 0, 176, 192, 0, 0, 0, 63, 0, 0, 127, 63, 138, 72, 216, 186, 185, 167, 17, 192, 0, 0, 176, 64, 0, 0, 0, 63, 0, 0, 127, 63, 138, 72, 167, 191 ),
-"array_index_data": PoolByteArray( 0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0, 4, 0, 5, 0, 6, 0, 4, 0, 6, 0, 7, 0, 8, 0, 9, 0, 10, 0, 8, 0, 10, 0, 11, 0, 12, 0, 13, 0, 14, 0, 12, 0, 14, 0, 15, 0, 16, 0, 17, 0, 18, 0, 16, 0, 18, 0, 19, 0, 20, 0, 21, 0, 22, 0, 20, 0, 22, 0, 23, 0 ),
-"blend_shape_data": [  ],
-"format": 2194711,
-"index_count": 36,
-"material": SubResource( 39 ),
-"primitive": 4,
-"skeleton_aabb": [  ],
-"vertex_count": 24
+[sub_resource type="Animation" id=248]
+resource_name = "OpenDoor"
+tracks/0/type = "value"
+tracks/0/path = NodePath("entity_17_brush_0_collision_shape:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -4.5, 0, 0 ), Vector3( -4.5, -10.01, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("entity_17_mesh_instance:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -4.5, 0, 0 ), Vector3( -4.5, -10.01, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("entity_16_mesh_instance:translation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -10.01, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("entity_16_brush_0_collision_shape:translation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, -10.01, 0 ) ]
 }
 
-[sub_resource type="ConvexPolygonShape" id=43]
-points = PoolVector3Array( 2.22414, 5.5, -0.5, -2.27586, 5.5, -0.5, -2.27586, -5.5, -0.5, 2.22414, -5.5, -0.5, 2.32759, -5.5, 0.5, 2.32759, 5.5, 0.5, -2.27586, 5.5, 0.5, -2.27586, -5.5, 0.5 )
+[sub_resource type="Animation" id=249]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("entity_17_brush_0_collision_shape:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( -4.5, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("entity_17_mesh_instance:translation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( -4.5, 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("entity_16_mesh_instance:translation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("entity_16_brush_0_collision_shape:translation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
 
 [sub_resource type="SpatialMaterial" id=48]
 albedo_texture = ExtResource( 36 )
@@ -2303,7 +2663,7 @@ shape = SubResource( 4 )
 anims/OpenDoor = ExtResource( 43 )
 anims/RESET = SubResource( 227 )
 
-[node name="door 2" type="StaticBody" parent="."]
+[node name="door 2" type="StaticBody" parent="." groups=["Door"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 82, 8.5, 62.5 )
 
 [node name="entity_2_mesh_instance" type="MeshInstance" parent="door 2"]
@@ -2322,6 +2682,8 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
 shape = SubResource( 9 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="door 2"]
+anims/OpenDoor = SubResource( 242 )
+anims/RESET = SubResource( 243 )
 
 [node name="door 4" type="StaticBody" parent="." groups=["Door"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 107.5, 6.5, 18.5 )
@@ -2406,7 +2768,7 @@ shape = SubResource( 30 )
 anims/OpenDoor = SubResource( 234 )
 anims/RESET = SubResource( 235 )
 
-[node name="door 11" type="StaticBody" parent="."]
+[node name="door 11" type="StaticBody" parent="." groups=["Door"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 79.5, 2, 99 )
 
 [node name="entity_13_mesh_instance" type="MeshInstance" parent="door 11"]
@@ -2415,8 +2777,16 @@ mesh = SubResource( 32 )
 [node name="entity_13_brush_0_collision_shape" type="CollisionShape" parent="door 11"]
 shape = SubResource( 33 )
 
-[node name="door 12" type="StaticBody" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="door 11"]
+anims/OpenDoor = SubResource( 244 )
+anims/RESET = SubResource( 245 )
+
+[node name="door 12" type="StaticBody" parent="." groups=["Door"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 55.5, 2, 101.5 )
+
+[node name="entity_15_brush_0_collision_shape" type="CollisionShape" parent="door 12"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5 )
+shape = SubResource( 38 )
 
 [node name="entity_14_mesh_instance" type="MeshInstance" parent="door 12"]
 mesh = SubResource( 35 )
@@ -2424,17 +2794,26 @@ mesh = SubResource( 35 )
 [node name="entity_14_brush_0_collision_shape" type="CollisionShape" parent="door 12"]
 shape = SubResource( 36 )
 
-[node name="door 13" type="StaticBody" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 55.5, 2, 96.5 )
-
-[node name="entity_15_mesh_instance" type="MeshInstance" parent="door 13"]
+[node name="entity_15_mesh_instance" type="MeshInstance" parent="door 12"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5 )
 mesh = SubResource( 37 )
+skeleton = NodePath("")
 
-[node name="entity_15_brush_0_collision_shape" type="CollisionShape" parent="door 13"]
-shape = SubResource( 38 )
+[node name="AnimationPlayer" type="AnimationPlayer" parent="door 12"]
+anims/OpenDoor = SubResource( 246 )
+anims/RESET = SubResource( 247 )
 
-[node name="door 14" type="StaticBody" parent="."]
+[node name="door 14" type="StaticBody" parent="." groups=["Door"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7759, 10.5, 53.5 )
+
+[node name="entity_17_brush_0_collision_shape" type="CollisionShape" parent="door 14"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 0, 0 )
+shape = SubResource( 43 )
+
+[node name="entity_17_mesh_instance" type="MeshInstance" parent="door 14"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 0, 0 )
+mesh = SubResource( 42 )
+skeleton = NodePath("")
 
 [node name="entity_16_mesh_instance" type="MeshInstance" parent="door 14"]
 mesh = SubResource( 40 )
@@ -2442,14 +2821,9 @@ mesh = SubResource( 40 )
 [node name="entity_16_brush_0_collision_shape" type="CollisionShape" parent="door 14"]
 shape = SubResource( 41 )
 
-[node name="door 15" type="StaticBody" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 48.2759, 10.5, 53.5 )
-
-[node name="entity_17_mesh_instance" type="MeshInstance" parent="door 15"]
-mesh = SubResource( 42 )
-
-[node name="entity_17_brush_0_collision_shape" type="CollisionShape" parent="door 15"]
-shape = SubResource( 43 )
+[node name="AnimationPlayer" type="AnimationPlayer" parent="door 14"]
+anims/OpenDoor = SubResource( 248 )
+anims/RESET = SubResource( 249 )
 
 [node name="door 16" type="StaticBody" parent="." groups=["Door"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 31, 11.5, 59.5 )

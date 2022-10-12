@@ -1,0 +1,12 @@
+PulseLight RegenSphere
+{
+Color 1.0 0.0 0.0
+Size 40
+SecondarySize 56
+Interval 5.0
+}
+
+Object RegenSphere
+{
+Frame REGN { Light RegenSphere }
+}

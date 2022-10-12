@@ -1,0 +1,18 @@
+actor RegenSphere : PowerupGiver 32602
+{
+	Game Doom
+	inventory.pickupmessage "Regeneration!!."
+	inventory.maxamount 0
+	powerup.duration -60
+	powerup.color "FF FF FF", 0.1
+	powerup.type Regeneration
+	+COUNTITEM
+	+INVENTORY.AUTOACTIVATE
+	+INVENTORY.ALWAYSPICKUP
+	States
+	{
+	Spawn:
+		REGN ABCD 6 Bright
+		Loop
+	}
+}
