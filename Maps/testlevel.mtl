@@ -1,0 +1,119 @@
+newmtl __TB_empty
+
+newmtl darkflex/darkf085
+map_Kd textures\darkflex\darkf085.png
+
+newmtl darkflex/darkf142
+map_Kd textures\darkflex\darkf142.png
+
+newmtl darkflex/darkf201
+map_Kd textures\darkflex\darkf201.png
+
+newmtl darkflex/darkf208
+map_Kd textures\darkflex\darkf208.png
+
+newmtl darkflex/darkf209
+map_Kd textures\darkflex\darkf209.png
+
+newmtl darkflex/darkf256
+map_Kd textures\darkflex\darkf256.png
+
+newmtl darkflex/darkf258
+map_Kd textures\darkflex\darkf258.png
+
+newmtl darkflex/darkf276
+map_Kd textures\darkflex\darkf276.png
+
+newmtl darkflex/darkf325
+map_Kd textures\darkflex\darkf325.png
+
+newmtl darkflex/darkf338
+map_Kd textures\darkflex\darkf338.png
+
+newmtl darkflex/darkf344
+map_Kd textures\darkflex\darkf344.png
+
+newmtl darkflex/darkf372
+map_Kd textures\darkflex\darkf372.png
+
+newmtl darkflex/darkf373
+map_Kd textures\darkflex\darkf373.png
+
+newmtl darkflex/darkf375
+map_Kd textures\darkflex\darkf375.png
+
+newmtl darkflex/darkf376
+map_Kd textures\darkflex\darkf376.png
+
+newmtl darkflex/darkf382
+map_Kd textures\darkflex\darkf382.png
+
+newmtl darkflex/darkf419
+map_Kd textures\darkflex\darkf419.png
+
+newmtl darkflex/darkf436
+map_Kd textures\darkflex\darkf436.png
+
+newmtl darkflex/darkf438
+map_Kd textures\darkflex\darkf438.png
+
+newmtl darkflex/darkf446
+map_Kd textures\darkflex\darkf446.png
+
+newmtl darkflex/darkf615
+map_Kd textures\darkflex\darkf615.png
+
+newmtl darkflex/darkf617
+map_Kd textures\darkflex\darkf617.png
+
+newmtl darkflex/darkf618
+map_Kd textures\darkflex\darkf618.png
+
+newmtl darkflex/darkf620
+map_Kd textures\darkflex\darkf620.png
+
+newmtl darkflex/darkf627
+map_Kd textures\darkflex\darkf627.png
+
+newmtl darkflex/darkf673
+map_Kd textures\darkflex\darkf673.png
+
+newmtl darkflex/darkf702
+map_Kd textures\darkflex\darkf702.png
+
+newmtl darkflex/darkf720
+map_Kd textures\darkflex\darkf720.png
+
+newmtl darkflex/darkf764
+map_Kd textures\darkflex\darkf764.png
+
+newmtl darkflex/darkf765
+map_Kd textures\darkflex\darkf765.png
+
+newmtl darkflex/darkf767
+map_Kd textures\darkflex\darkf767.png
+
+newmtl darkflex/darkf785
+map_Kd textures\darkflex\darkf785.png
+
+newmtl darkflex/df_sky01
+map_Kd textures\darkflex\df_sky01.png
+
+newmtl darkflex/df_sky02
+map_Kd textures\darkflex\df_sky02.png
+
+newmtl darkflex/df_sky05
+map_Kd textures\darkflex\df_sky05.png
+
+newmtl darkflex/df_sky06
+map_Kd textures\darkflex\df_sky06.png
+
+newmtl darkflex/df_sky07
+map_Kd textures\darkflex\df_sky07.png
+
+newmtl darkflex/dfsw1_1
+map_Kd textures\darkflex\dfsw1_1.png
+
+newmtl darkflex/lock1_1
+map_Kd textures\darkflex\lock1_1.png
+
