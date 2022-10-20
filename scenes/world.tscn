@@ -21,4 +21,4 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 35.7845, 3.49522, 3.54102 )
 transform = Transform( 0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 0, 0 )
 
 [node name="HealthPickup" parent="." instance=ExtResource( 5 )]
-transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 61.4164, 0.71437, -3.26094 )
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 61.4164, 1.93221, -3.26094 )
